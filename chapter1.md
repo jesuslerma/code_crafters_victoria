@@ -234,6 +234,7 @@ end
 
 ### Dependency Inversion
 one should “Depend upon Abstractions. Do not depend upon concretions.”
+high-level (think business logic) objects not depending on low-level (think database querying and IO) implementation details
 
 ```ruby
 class UsageFileParser
